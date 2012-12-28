@@ -11,14 +11,3 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 
 Options -Indexes
 
-order deny,allow
-deny from all
-
-#local
-allow from 127.0.0.1
-
-#home
-allow from 68.174.13.82
-
-#work
-allow from 216.27.141.16
